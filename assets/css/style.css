@@ -10,6 +10,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 /*Header style start*/
 header {
     padding: 20px 35px;
@@ -39,6 +40,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+
 /*Footer style start*/
 footer {
     background: #fce138;
@@ -62,6 +64,7 @@ footer a {
 section {
     padding: 60px;
 }
+
 
 /*Hero style start*/
 .hero {
@@ -108,10 +111,8 @@ section {
     font-size: 16px;
 }
 
+
 /*Body Sections*/
-.intro {
-    text-align: center;
-}
 .section-title {
     display: inline-block;
     font-size: 55px;
@@ -120,13 +121,17 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
 }
-/*Yellow Border section title*/
-.primary-border {
+.primary-border { /*Yellow Border section title*/
     border-color: #fce138;
 }
-/*Teal-blue Border section title*/
-.secondary-border {
+.secondary-border { /*Teal-blue Border section title*/
     border-color: #39a6b2;
+}
+
+
+/*What We Do*/
+.intro {
+    text-align: center;
 }
 .intro p {
     margin: 0 auto;
@@ -135,6 +140,9 @@ section {
     width: 80%;
     font-size: 20px;
 }
+
+
+/*What You Do*/
 .steps {
     text-align: center;
     background: #fce138;
@@ -157,4 +165,45 @@ section {
 }
 .steps span {
     font-size: 38px;
+}
+
+
+/*Trainers*/
+.trainers { /*section: Over-class*/
+    text-align: center;
+}
+.trainer { /*Trainer Profile section: Under-class*/
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+.trainer img {
+    width: 35%;
+    float: left;
+}
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.text-left {
+    text-align: left;
+}
+.text-right { 
+    text-align: right;
+}
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
