@@ -120,6 +120,14 @@ section {
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
 }
+/*Yellow Border section title*/
+.primary-border {
+    border-color: #fce138;
+}
+/*Teal-blue Border section title*/
+.secondary-border {
+    border-color: #39a6b2;
+}
 .intro p {
     margin: 0 auto;
     line-height: 1.7;
@@ -149,10 +157,4 @@ section {
 }
 .steps span {
     font-size: 38px;
-}
-.primary-border {
-    border-color: #fce138;
-}
-.secondary-border {
-    border-color: #39a6b2;
 }
